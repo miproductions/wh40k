@@ -3320,11 +3320,39 @@
             <entryLink id="bfad-4ffd-80b1-342e" name="Plasma caliver" hidden="false" targetId="88c6-b649-aaeb-697d" type="selectionEntry">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
+              <infoLinks>
+                <infoLink id="41d2-81d8-2ef2-0fa5" name="Skitarii Ranger" hidden="false" targetId="195a-45af-3c65-5785" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="677f-408a-c24b-1b8a" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ba77-6fd9-7474-7095" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec2-817e-c2d8-bb63" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="677f-408a-c24b-1b8a" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="677f-408a-c24b-1b8a" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b99-f27f-5a39-83d3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ce-821d-60fe-0f86" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="677f-408a-c24b-1b8a" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -3338,48 +3366,97 @@
             <infoLink id="6806-4e7d-68b2-e189" name="Skitarii Ranger" hidden="false" targetId="195a-45af-3c65-5785" type="profile">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="60bb-44a3-b220-66be" value="3">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddd8-d198-130f-a058" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="60bb-44a3-b220-66be" value="1">
-              <repeats>
-                <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4b47-87b7-55a2-fbc6" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="60bb-44a3-b220-66be" value="1">
-              <repeats>
-                <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a0e-61c6-9543-e107" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60bb-44a3-b220-66be" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="ae5c-8080-ef08-ae20" name="Transuranic arquebus" hidden="false" targetId="9dd1-a1d2-6b56-b4b3" type="selectionEntry">
+              <infoLinks>
+                <infoLink id="d1f1-56a9-1566-4853" name="Skitarii Ranger" hidden="false" targetId="195a-45af-3c65-5785" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="027f-3e6d-f2c1-33a0" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ba77-6fd9-7474-7095" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec2-817e-c2d8-bb63" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="027f-3e6d-f2c1-33a0" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="678a-124b-83c1-e04a" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="027f-3e6d-f2c1-33a0" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5899-dec4-7136-a1b9" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="027f-3e6d-f2c1-33a0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="94bf-83a3-83e9-d7cd" name="Plasma caliver" hidden="false" targetId="88c6-b649-aaeb-697d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0bd-b4ec-3c26-bcc3" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9def-25f1-bc11-56e9" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="678a-124b-83c1-e04a" name="Ranger (Arc Rifle)" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
+              <infoLinks>
+                <infoLink id="2949-2ed3-8f4e-7284" name="Skitarii Ranger" hidden="false" targetId="195a-45af-3c65-5785" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="5167-fe48-9fdd-8d7f" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ba77-6fd9-7474-7095" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5ec2-817e-c2d8-bb63" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="5167-fe48-9fdd-8d7f" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="5899-dec4-7136-a1b9" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="5167-fe48-9fdd-8d7f" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ba77-6fd9-7474-7095" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="a2c2-8360-caaf-71e9" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad62-1455-f09c-c9e1" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f19-0a54-a2d7-d4c1" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5167-fe48-9fdd-8d7f" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -3599,8 +3676,37 @@
             <entryLink id="b39c-cf52-6496-1495" name="Arc rifle" hidden="false" targetId="ec21-7c6a-3910-cc4a" type="selectionEntry">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
+              <infoLinks>
+                <infoLink id="8d1a-e9e8-68df-f667" name="Skitarii Vanguard" hidden="false" targetId="37dd-8f59-0638-7c2f" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="1f76-9459-0843-1e34" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ed1e-bdea-6881-edd6" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11c1-26a0-89b3-138e" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="1f76-9459-0843-1e34" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="1f76-9459-0843-1e34" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d2-8c78-4fcd-41b0" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8ff-f41e-0f54-47d5" type="max"/>
@@ -3617,45 +3723,95 @@
             <infoLink id="ff1c-acb1-2108-df90" name="Skitarii Vanguard" hidden="false" targetId="37dd-8f59-0638-7c2f" type="profile">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="ff5e-98a4-d20e-945d" value="3">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddd8-d198-130f-a058" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="ff5e-98a4-d20e-945d" value="1">
-              <repeats>
-                <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f522-9586-1d51-cf3c" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="ff5e-98a4-d20e-945d" value="1">
-              <repeats>
-                <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fc16-3e26-8ff2-e777" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff5e-98a4-d20e-945d" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="eeb5-fb7a-5007-7770" name="Plasma caliver" hidden="false" targetId="88c6-b649-aaeb-697d" type="selectionEntry">
+              <infoLinks>
+                <infoLink id="957f-4b60-5488-c675" name="Skitarii Vanguard" hidden="false" targetId="37dd-8f59-0638-7c2f" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="2b10-3c7b-2d1c-cb44" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ed1e-bdea-6881-edd6" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11c1-26a0-89b3-138e" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="2b10-3c7b-2d1c-cb44" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="db66-bd9d-fdb7-6490" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="2b10-3c7b-2d1c-cb44" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b10-3c7b-2d1c-cb44" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c619-06c2-1710-67ad" name="Plasma caliver" hidden="false" targetId="88c6-b649-aaeb-697d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc6-303e-e121-fa7a" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e7-908c-b7a2-bd92" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db66-bd9d-fdb7-6490" name="Vanguard (Arc Rifle)" hidden="false" collective="false" type="model">
               <profiles/>
               <rules/>
-              <infoLinks/>
-              <modifiers/>
+              <infoLinks>
+                <infoLink id="6fac-7846-cd94-16a5" name="Skitarii Vanguard" hidden="false" targetId="37dd-8f59-0638-7c2f" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="324b-46e0-157f-7615" value="3">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="ed1e-bdea-6881-edd6" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11c1-26a0-89b3-138e" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="324b-46e0-157f-7615" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="919f-776c-8799-6367" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="324b-46e0-157f-7615" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="ed1e-bdea-6881-edd6" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b296-e5e5-6da5-0670" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e23-6561-9b70-d11b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2c-139e-01cd-8857" type="max"/>
