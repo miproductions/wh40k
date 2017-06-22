@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 8th Edition" revision="4" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 8th Edition" revision="6" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5147,7 +5147,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator" hidden="false" targetId="474e-aeec-1b23-c181" type="profile">
+        <infoLink id="3a5a-979d-4e6c-906f" name="Plasma incinerator, Standard" hidden="false" targetId="474e-aeec-1b23-c181" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7459,6 +7459,28 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4334-d2da-32f5-dc53" name="Chainsword" hidden="false" collective="true" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6c39-1b7c-4e3e-8dd6" name="Chainsword" hidden="false" targetId="9b1e-61f9-4a5b-0044" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="891c-fbf0-e426-2c15" name="Fallen Champion Equipment" hidden="false" collective="false">
@@ -9389,7 +9411,7 @@ When charging a unit of the opposite side of a defence line, the charge is succe
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
         <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
         <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
@@ -9403,7 +9425,7 @@ When charging a unit of the opposite side of a defence line, the charge is succe
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="30&quot;"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 1"/>
         <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="8"/>
         <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
