@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Index: Imperium 1" page="" revision="3" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Index: Imperium 1" page="" revision="4" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2431,21 +2431,41 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="9c73-fb00-6dc9-4599" name="Master Swordsman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You can re-roll failed hit and wound rolls for Castellan Crowe in the Fight phase. In addition, each time you make a successful wound roll for Castelan Crowe in the Fight phase, you can immediately make another attack with the Black Blade of Antwyr, though these additional attacks cannot generate any further attacks.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="dfd6-2741-8b25-5a19" name="New InfoLink" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
+        <infoLink id="dfd6-2741-8b25-5a19" name="And They Shall Know No Fear" hidden="false" targetId="4ea8-94d3-ba39-042f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b5ce-c716-29d9-dc63" name="New InfoLink" hidden="false" targetId="a7db-5058-2216-4e6d" type="rule">
+        <infoLink id="b5ce-c716-29d9-dc63" name="Daemon Hunters" hidden="false" targetId="a7db-5058-2216-4e6d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6af1-71e6-930b-85e7" name="New InfoLink" hidden="false" targetId="ab24-41ef-2542-25de" type="profile">
+        <infoLink id="6af1-71e6-930b-85e7" name="Psyker (Sanctic 2)" hidden="false" targetId="ab24-41ef-2542-25de" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1f0d-89c1-bdbd-a82a" name="Purifying Flame" hidden="false" targetId="57c8-21ab-8e4d-a3ec" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="db4a-9729-9225-06ea" name="Heroic Sacrifice" hidden="false" targetId="d4b6-6518-a596-f88c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2515,7 +2535,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="7ecc-30a7-1a7f-704f" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="7ecc-30a7-1a7f-704f" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5749,7 +5769,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="90.0"/>
       </costs>
     </selectionEntry>
@@ -12310,6 +12330,13 @@
       <modifiers/>
       <description>If this model has a Dreadknight teleporter, then during deployment, you can set it up in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases this model can teleport into battle - set it up anywhere on the battlefield that is more than 9&quot; away from enemy models.</description>
     </rule>
+    <rule id="d4b6-6518-a596-f88c" name="Heroic Sacrifice" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is slain in the fight phase, it can immediately pile in and attack before being removed as a casualty.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f204-dc7f-aacf-e947" name="Grey Knight Terminator" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
@@ -12767,7 +12794,6 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Warp Charge" characteristicTypeId="5ffd-b800-c317-532a" value="5"/>
-        <characteristic name="Power Category" characteristicTypeId="f04c-a782-d794-ddad" value="Sanctic"/>
         <characteristic name="Range" characteristicTypeId="fd64-cbc4-94de-24cc" value="12&quot;"/>
         <characteristic name="Details" characteristicTypeId="ad96-dfa4-b4ed-656d" value="If manifested, pick a visible enemy unit within 12&quot; of the psyker. Both controlling players roll a dice and add their respective unit&apos;s highest Leadership value. If the target&apos;s total is equal to or greater than the psyker&apos;s total, nothing happens. If the psyker&apos;s total is greater than the target&apos;s total, the target unit suffers a number of mortal wounds equal to the difference."/>
       </characteristics>
@@ -12779,7 +12805,6 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Warp Charge" characteristicTypeId="5ffd-b800-c317-532a" value="6"/>
-        <characteristic name="Power Category" characteristicTypeId="f04c-a782-d794-ddad" value="Sanctic"/>
         <characteristic name="Range" characteristicTypeId="fd64-cbc4-94de-24cc" value="12"/>
         <characteristic name="Details" characteristicTypeId="ad96-dfa4-b4ed-656d" value="If manifested pick a friendly Grey Knight unit within 12&quot; of the psyker. Remove that unit from the battlefield and immediately set it up anywhere on the battlefield that is more than 9&quot; from any enemy model."/>
       </characteristics>
@@ -12791,7 +12816,6 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Warp Charge" characteristicTypeId="5ffd-b800-c317-532a" value="6"/>
-        <characteristic name="Power Category" characteristicTypeId="f04c-a782-d794-ddad" value="Sanctic"/>
         <characteristic name="Range" characteristicTypeId="fd64-cbc4-94de-24cc" value="12&quot;"/>
         <characteristic name="Details" characteristicTypeId="ad96-dfa4-b4ed-656d" value="If manifested, pick a friendly (Grey Knight) unit within 12&quot; of the psyker. Add 1 to any would rolls you make for that unit&apos;s Melee weapon until the start of your next Psychic phase."/>
       </characteristics>
